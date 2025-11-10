@@ -70,6 +70,7 @@
 }
 
 @theme inline {
+  --font-plusjakarta: 'Plus Jakarta Sans', sans-serif;
   --font-inter: 'Inter', 'sans-serif';
   --font-manrope: 'Manrope', 'sans-serif';
 

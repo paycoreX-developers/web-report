@@ -7,6 +7,8 @@ import {
   UserCog,
   Command,
   ListIcon,
+  UserX,
+  Package,
 } from 'lucide-react'
 import { type SidebarData } from '../types'
 
@@ -18,9 +20,9 @@ export const sidebarData: SidebarData = {
   },
   teams: [
     {
-      name: 'ST24 Web Admin',
+      name: 'ST24 Web Report',
       logo: Command,
-      plan: 'Super Admin',
+      plan: '+62 823 3437 5461',
     },
   ],
   navGroups: [
@@ -57,6 +59,11 @@ export const sidebarData: SidebarData = {
           title: 'Daftar Produk',
           url: '/users',
           icon: ListIcon,
+        },
+        {
+          title: 'Supplier',
+          url: '/supplier',
+          icon: Package,
         },
         // {
         //   title: 'Secured by Clerk',
